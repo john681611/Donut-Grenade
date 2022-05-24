@@ -1,0 +1,18 @@
+GenericEntity : "{D7EB24176E5CEAA6}Prefabs/Weapons/Core/Grenade_Base.et" {
+ ID "1F80A73AAE197BBE"
+ components {
+  InventoryItemComponent "{51FAA3E3CF6F087A}" {
+   Attributes SCR_ItemAttributeCollection "{51FAA3E3C2D19BD4}" {
+    ItemDisplayName GrenadeUIInfo "{59714BEBFEEDD2FF}" {
+     Name "#DonutGrenade_Name"
+     Description "Its a Donut Grenade"
+     Icon "{0E5E523230453EA8}UI/Textures/WeaponIcons/grenade_M67.edds"
+    }
+   }
+  }
+  MeshObject "{51EC93F29BA5F234}" {
+   Object "{E8F3F9C9DE691B76}Assets/Weapons/Grenades/Donut/Donut_mod_version.xob"
+  }
+ }
+ coords 0 0 0
+}
